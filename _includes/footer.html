@@ -1,0 +1,50 @@
+</div><!-- .wrapper -->
+<footer class="footer">
+    <div class="footer-left">
+        <a href=# class="more">heyyayme.cc</a>
+        <section id="popover"><a href="https://jekyllrb.com/ ">Jekyll</a> power!</section>
+    </div>
+    <div class="footer-right">
+        <a class="instagram" href="http://instagram.com/shhbbv">instagram</a> | 
+        <a class="facebook" href="http://facebook.com/chuprinaleksey">facebook</a> | 
+        <a class="contact" href="">contact</a>
+    </div>
+</footer><!-- .footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/assets/js/jquery.tabslet.min.js"></script>
+<script src="/assets/js/uilang.js"></script>
+
+<script>
+    $('.tabs').tabslet({
+        container: '.content',
+        mouseevent: 'click',
+        attribute: 'href',
+        active: 2
+    });
+</script>
+
+<script>
+    (function() {
+        function scrollHorizontally(e) {
+            e = window.event || e;
+            var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+            document.documentElement.scrollLeft -= (delta*40); // Multiplied by 40
+            document.body.scrollLeft -= (delta*40); // Multiplied by 40
+            e.preventDefault();
+        }
+        if (window.addEventListener) {
+            // IE9, Chrome, Safari, Opera
+            window.addEventListener("mousewheel", scrollHorizontally, false);
+            // Firefox
+            window.addEventListener("DOMMouseScroll", scrollHorizontally, false);
+        } else {
+            // IE 6/7/8
+            window.attachEvent("onmousewheel", scrollHorizontally);
+        }
+    })();
+</script>
+
+<code>
+  clicking on ".more" toggles class "visible" on "#popover"
+</code>

@@ -1,0 +1,12 @@
+# Site settings
+title: heyyayme
+email: chuprinalexis@gmail.com
+author: Aleksey
+description: "A blog about photography, life and travel"
+url: "http://typetowrite.xyz" # the base hostname & protocol for your site
+twitter_username: alexfello
+github_username:  alexfello
+
+# Build settings
+markdown: kramdown
+permalink: /:title

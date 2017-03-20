@@ -1,0 +1,14 @@
+photo:
+  name: Photo
+
+talk:
+  name: Talk
+
+story:
+  name: Story
+
+pripyat:
+  name: Pripyat
+  
+thing:
+  name: Thing
