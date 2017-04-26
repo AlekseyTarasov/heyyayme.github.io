@@ -1,5 +1,5 @@
 ---
 title: "typewriter"
-image: "https://dl.dropboxusercontent.com/u/33967130/32px/typewriter.png"
+image: "https://www.dropbox.com/s/372irrjyhlz7w8x/typewriter.png?dl=1"
 tags: [photo, talk]
 ---
