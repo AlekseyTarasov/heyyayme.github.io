@@ -1,5 +1,5 @@
 ---
 title: "diana mini"
-image: "https://dl.dropboxusercontent.com/u/33967130/32px/diana_mini.png"
+image: "https://www.dropbox.com/s/8i8t9468c4no4ok/diana_mini.png?dl=1"
 tags: [photo, talk]
 ---
