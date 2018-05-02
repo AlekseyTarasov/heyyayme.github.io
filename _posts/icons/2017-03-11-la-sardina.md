@@ -1,6 +1,6 @@
 ---
 title: "la sardina"
-image: "https://www.dropbox.com/s/kqnxgfbvm80a85s/la-sardina.jpg?dl=0"
+image: "assets/images/la-sardina.jpg"
 categories: [icons]
 tags: [photo, talk]
 ---
