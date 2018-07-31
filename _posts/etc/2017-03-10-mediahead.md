@@ -2,6 +2,6 @@
 title: "MediaHead"
 image: "assets/images/mediahead.png"
 full: "assets/images/index2.jpg"
-categories: [site]
+categories: [etc]
 tags: [photo, talk]
 ---
