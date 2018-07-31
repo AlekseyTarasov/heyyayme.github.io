@@ -1,8 +1,8 @@
-photo:
-  name: Photo
+48px:
+  name: 48px
 
-talk:
-  name: Talk
+icons:
+  name: icons
 
 story:
   name: Story
