@@ -35,7 +35,7 @@
 
           {% for post in site.categories.etc %}
     			 <td>
-              <a href="{{ post.full }}"><img src="{{ post.image }}"></a>
+              <a href="{{ post.url | relative_url }}"><img src="{{ post.image }}"></a>
               <div class="thumb_title">
                   <span>{{ post.title }}</span>
               </div>
