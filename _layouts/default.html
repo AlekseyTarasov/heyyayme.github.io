@@ -61,6 +61,34 @@
         <tbody>
           <tr>
 
+          {% for post in site.categories.etc %}
+           <td>
+              <a href="{{ post.full }}"><img src="{{ post.image }}"></a>
+              <div class="thumb_title">
+                  <span>{{ post.title }}</span>
+              </div>
+              <div class="thumb_tags">
+                <span class="thumb_tag">
+                {% for tag in page.tags %}
+                  <a href="/tags/{{ tag }}/">{{ tag }}</a>
+                {% endfor %}
+                <span>{{ tags_content }}</span></span>
+              </div>
+            </td>
+          {% endfor %}
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id='tab-3'>
+    <div class="page">
+      <table>
+        <tbody>
+          <tr>
+
           {% for post in site.categories.icons %}
            <td>
               <a href="{{ post.full }}"><img src="{{ post.image }}"></a>
@@ -84,7 +112,7 @@
   </div>
 
 
-  <div id='tab-3'>
+  <div id='tab-4'>
     <div class="page">
       <table>
         <tbody>
