@@ -27,12 +27,31 @@ body {
 	position: fixed;
 }
 
+.header-post {
+	padding: 8.5em 0 0 0;
+	position: fixed;
+}
+
 .title{
 	font-size: 13px;
 	color: rgba(0, 0, 0, .8);
 	letter-spacing: 1px;
 	line-height: 1.4;
 }
+
+.title a
+  background: #000 none repeat scroll 0% 0%;
+  color: #FFF;
+  padding: 2px 4px;
+  text-decoration: none;
+}
+
+..title a:hover {
+  background: #FFF none repeat scroll 0% 0%;
+  color: #000;
+}
+
+
 
 .description {
 	color: #999999;
