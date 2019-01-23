@@ -39,7 +39,7 @@ body {
 	line-height: 1.4;
 }
 
-.header-post a
+.header-post a {
   background: #000 none repeat scroll 0% 0%;
   color: #FFF;
   padding: 2px 4px;
