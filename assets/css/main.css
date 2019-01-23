@@ -33,14 +33,14 @@ body {
 	line-height: 1.4;
 }
 
-.header a {
+.header-part a {
   	background: #000 none repeat scroll 0% 0%;
   	color: #FFF;
   	padding: 2px 4px;
   	text-decoration: none;
 }
 
-.header a:hover {
+.header-part a:hover {
   background: #FFF none repeat scroll 0% 0%;
   color: #000;
 }
