@@ -27,25 +27,20 @@ body {
 	position: fixed;
 }
 
-.header-post {
-	padding: 8.5em 0 0 0;
-	position: fixed;
-}
-
 .title{
 	font-size: 13px;
 	letter-spacing: 1px;
 	line-height: 1.4;
 }
 
-.header-post a {
-  background: #000 none repeat scroll 0% 0%;
-  color: #FFF;
-  padding: 2px 4px;
-  text-decoration: none;
+.header a {
+  	background: #000 none repeat scroll 0% 0%;
+  	color: #FFF;
+  	padding: 2px 4px;
+  	text-decoration: none;
 }
 
-.header-post a:hover {
+.header a:hover {
   background: #FFF none repeat scroll 0% 0%;
   color: #000;
 }
@@ -55,10 +50,10 @@ body {
 .description {
 	color: #999999;
     font-size: 9px;
-	line-height: 18px;
+	line-height: 22px;
 }
 
-.description a{
+.description a {
 	border-bottom: 1px solid #000;
 }
 
