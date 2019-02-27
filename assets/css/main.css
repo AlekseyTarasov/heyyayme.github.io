@@ -79,8 +79,14 @@ body {
 }
 
 .active{
-	background: #ff0;
-	color: #000
+	border: solid 1px #000000;
+		-webkit-border-radius: 2px;
+		-khtml-border-radius: 2px;
+		-moz-border-radius: 2px;
+		-ms-border-radius: 2px;
+		-o-border-radius: 2px;
+	border-radius: 0px;
+	background: #fff;
 }
 
 
