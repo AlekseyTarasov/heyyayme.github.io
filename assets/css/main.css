@@ -216,6 +216,7 @@ white-space: nowrap;
 }
 
 .contact-buttom {
+	cursor: pointer;
 	color: rgb(255, 255, 255);
 	border-top-color: transparent;
 	border-right-color: transparent;
