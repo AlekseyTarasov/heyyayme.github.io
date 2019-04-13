@@ -161,8 +161,8 @@ white-space: nowrap;
 
 .container{
 	position: absolute;
-margin: 0 0 0 215px;
-line-height: 1.4em;
+	margin: 0 0 0 215px;
+	line-height: 1.4em;
 }
 
 
