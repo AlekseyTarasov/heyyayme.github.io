@@ -177,6 +177,10 @@ white-space: nowrap;
 
 }
 
+.work-content{
+	line-height: 1.1;
+}
+
 .exhibit{
 	position: absolute;
 	margin: 19em 0 0 30%;
