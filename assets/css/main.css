@@ -160,6 +160,7 @@ white-space: nowrap;
 }
 
 .index{
+	position: absolute;
 	margin-top: 19em;
 }
 
