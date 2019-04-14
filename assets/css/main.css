@@ -196,6 +196,11 @@ white-space: nowrap;
 	float: right;
 }
 
+.footer a:hover {
+    color: #000;
+    font-style: italic; 
+}
+
 
 #popover {
 	opacity: 0;
@@ -239,9 +244,4 @@ white-space: nowrap;
 a{
 color: #000;
 text-decoration: none;
-}
-
-a:hover {
-    color: #000;
-    font-style: italic; 
 }
