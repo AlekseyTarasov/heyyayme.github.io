@@ -159,6 +159,10 @@ white-space: nowrap;
 	text-decoration: none;
 }
 
+.index{
+	margin-top: 19em;
+}
+
 .exhibit{
 	position: absolute;
 	margin: 19em 0 0 30%;
