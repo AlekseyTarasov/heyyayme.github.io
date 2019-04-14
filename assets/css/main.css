@@ -47,8 +47,6 @@ body {
   color: #000;
 }
 
-
-
 .description {
 	color: #999999;
     font-size: 9px;
@@ -164,6 +162,7 @@ white-space: nowrap;
 	width: 415px;
 	margin-top: 19em;
 	padding: 0 2%;
+	z-index: 1;
 }
 
 .work-header{
