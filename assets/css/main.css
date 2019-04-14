@@ -166,6 +166,18 @@ white-space: nowrap;
 	padding: 0 2%;
 }
 
+.work-header{
+
+}
+
+.work-title{
+ font-size: 1.8rem;
+}
+
+.work-description{
+
+}
+
 .exhibit{
 	position: absolute;
 	margin: 19em 0 0 30%;
