@@ -160,7 +160,7 @@ white-space: nowrap;
 }
 
 .index{
-	position: absolute;
+	position: fixed;
 	width: 415px;
 	margin-top: 19em;
 	padding: 27px 9px 25px 27px;

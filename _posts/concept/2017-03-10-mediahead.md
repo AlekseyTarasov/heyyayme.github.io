@@ -8,9 +8,6 @@ categories: [concept]
 tags: [photo, talk]
 ---
 
-test site build for MEDIAHEAD ADVERTISING AGENCY
-
-
 Lorem ipsum dolor sit amet, soluta oportere eu eum. Mei doming possit urbanitas eu. Sumo vero in per, ius utamur expetenda philosophia no. Ut mel liber aliquip malorum.
 
 Pro te percipit oportere. Duis eruditi at per, pri vero convenire definiebas ea. Nominati consulatu signiferumque te cum. Pri et causae instructior, at erat iudico postulant vis. Ius ea dicta veniam, ea stet lorem vitae ius, no dicat dolorum scripserit per.
