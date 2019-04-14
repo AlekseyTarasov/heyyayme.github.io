@@ -159,22 +159,22 @@ white-space: nowrap;
 
 .index{
 	position: fixed;
-	width: 415px;
+	width: 420px;
 	margin-top: 19em;
-	padding: 0 2%;
+	padding: 10% 0 0 2%;
 	z-index: 1;
 }
 
 .work-header{
-
+	margin-bottom: 3em;
 }
 
 .work-title{
- font-size: 1.8rem;
+ font-size: 1rem;
 }
 
 .work-description{
-
+	font-size: 9px;
 }
 
 .work-content{
