@@ -3,9 +3,18 @@ layout: none
 ---
 
 <div class="index">
-	{{ content }}
+	<header class="work-header">
+		<p class="work-title">{{ page.title }}</p>                
+		<p class="work-date">{{ page.description }}</p>
+	</header>
+
+	<section class="work-content">
+		{{ content }}
+		<hr>
+	</section>
 </div>
 
 <div class="exhibit">
+
 	<img src="{{ page.full }}">
 </div>

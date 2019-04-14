@@ -1,5 +1,6 @@
 ---
 title: "MediaHead"
+description: "test site build for MEDIAHEAD ADVERTISING AGENCY"
 layout: post
 image: "assets/images/mediahead.png"
 full: "assets/images/index2.jpg"
