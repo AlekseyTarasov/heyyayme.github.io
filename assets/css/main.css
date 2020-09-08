@@ -190,8 +190,8 @@ white-space: nowrap;
 
 /* Arrows */
 
-arrows{
-	
+.arrows{
+	transition: .4s
 }
 
 /* Footer 40px */
