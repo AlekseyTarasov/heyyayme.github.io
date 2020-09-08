@@ -194,6 +194,10 @@ white-space: nowrap;
 	transition: .4s
 }
 
+ #switch.active #circle {
+    transform: translateX(100%)
+  }
+
 /* Footer 40px */
 
 .footer {
