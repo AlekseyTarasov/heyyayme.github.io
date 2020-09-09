@@ -192,6 +192,7 @@ white-space: nowrap;
 
 .arrows{
 	transition: .4s
+	padding: 90% 0;
 }
 
  #switch.active #circle {
