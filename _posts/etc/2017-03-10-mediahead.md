@@ -3,7 +3,7 @@ title: "MediaHead"
 description: "test site build for MEDIAHEAD ADVERTISING AGENCY"
 layout: post
 image: "assets/images/mediahead.png"
-full: "assets/images/index2.jpg"
+full: "assets/images/kuup.jpg"
 categories: [concept]
 tags: [photo, talk]
 ---
