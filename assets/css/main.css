@@ -170,7 +170,13 @@ white-space: nowrap;
 }
 
 .work-title{
- font-size: 1rem;
+	font-style: normal;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+	font-size: 4.2rem;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.93);
 }
 
 .work-description{
