@@ -1,5 +1,5 @@
 ---
-title: "MediaHead"
+title: "küup"
 description: "test site build for MEDIAHEAD ADVERTISING AGENCY"
 layout: post
 image: "assets/images/mediahead.png"
