@@ -394,8 +394,8 @@ pointer-events: auto;
 
 .gallery-robur-two{
 	width: 80%;
-	top: 18%;
-	left: 0%;
+	top: 17%;
+	left: -10%;
 	z-index: 2;
 	position: absolute;
 pointer-events: auto;
