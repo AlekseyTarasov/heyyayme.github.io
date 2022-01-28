@@ -402,6 +402,37 @@ pointer-events: auto;
 }
 
 
+
+.gallery-537-one{
+width: 60%;
+top: 50%;
+left: 50%;
+z-index: 2;
+
+position: absolute;
+pointer-events: auto;
+}
+
+.gallery-537-two{
+	width: 100%;
+	top: 12%;
+	left: 0%;
+	z-index: 1;
+	position: absolute;
+pointer-events: auto;
+}
+
+.gallery-537-three{
+width: 40%;
+top: 0%;
+left: 60%;
+z-index: 3;
+
+position: absolute;
+pointer-events: auto;
+}
+
+
 /* Footer 40px */
 
 .footer {
