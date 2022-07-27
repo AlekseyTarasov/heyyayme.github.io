@@ -266,6 +266,17 @@ article {
 }
 
 
+.article-gallery{
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 40%;
+  min-width: 125px;
+  height: 100%;
+  z-index: 5;
+}
+
+
 
 
 .gallery-item-one{
