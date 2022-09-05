@@ -455,9 +455,9 @@ pointer-events: auto;
 
 
 .gallery-cornish-one{
-width: 80%;
+width: 100%;
 top: 0;
-left: 20%;
+left: 0;
 z-index: 1;
 
 position: absolute;
