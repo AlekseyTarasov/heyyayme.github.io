@@ -377,6 +377,14 @@ pointer-events: auto;
 	pointer-events: auto;
 }
 
+.gallery-item-site{
+width: 30%;
+top: 0%;
+left: 20%;
+z-index: 3;
+position: absolute;
+pointer-events: auto;
+}
 
 
 
