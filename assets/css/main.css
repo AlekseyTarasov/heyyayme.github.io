@@ -26,7 +26,7 @@ body {
 
 .header{
 	padding-top: 5rem /*!main_margin; */ ;
-	padding-bottom: 1rem /*!main_margin*/;
+	padding-bottom: 0 /1rem*!main_margin*/;
 	padding-left: 5rem /*!main_margin*/;
 	padding-right: 5rem /*!main_margin*/;
 }
