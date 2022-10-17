@@ -99,6 +99,7 @@ line-height: 1;
 }
 
 .tabs{
+	position: absolute;
 	z-index: 99;
 }
 
