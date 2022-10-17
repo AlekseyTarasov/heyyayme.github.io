@@ -62,6 +62,7 @@
 
     <main class="content">
 
+<div id='tab-1'>
       <section class="projects">
           <div class="row between-xs">
                 <div class="col-xs-7">
@@ -166,12 +167,26 @@
           </div>
         </div>
       </section>
+
+</div>
     </main><!-- .content -->
   </div><!-- .wrapper -->
 
   <div class="noise-wrapper">
     <div class="noise"></div>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.tabslet.min.js"></script>
+
+  <script>
+    $('.tabs').tabslet({
+        container: '.content',
+        mouseevent: 'click',
+        attribute: 'href',
+        active: 3
+    });
+</script>
 
 </body>
 </html>
