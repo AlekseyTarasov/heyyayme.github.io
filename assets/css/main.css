@@ -323,6 +323,49 @@ article {
 }
 
 
+	#nav_slide {
+		width: 100%;
+		bottom: 12%;
+		height: 11px;
+		position: absolute;
+		text-align: center;
+		z-index: 99;
+		cursor: default;
+
+		.dots {
+			top: -5px;
+			width: 18px;
+			height: 18px;
+			margin: 0 3px;
+			position: relative;
+			border-radius: 100%;
+			display: inline-block;
+			background-color: rgba(0, 0, 0, 0.6);
+			transition: .4s;
+			cursor: pointer;
+		}
+		
+		#dot1:hover {background: $brown;}
+#dot2:hover {background: $magenta;}
+#dot3:hover {background: $blue;}
+#dot4:hover {background: $green;}
+	}
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four {
+	z-index: 9;
+	animation: scroll 1s ease-in-out;
+}
+
+#i1:checked ~ #nav_slide #dot1 {background: $brown;}
+#i2:checked ~ #nav_slide #dot2 {background: $magenta;}
+#i3:checked ~ #nav_slide #dot3 {background: $blue;}
+#i4:checked ~ #nav_slide #dot4 {background: $green;}
+
+
 
 
 .gallery-item-one{
