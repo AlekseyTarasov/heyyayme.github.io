@@ -63,7 +63,7 @@
     <main class="content">
 
     <div id='Etc'>
-                {% for post in site.categories.etc %}
+          {% for post in site.categories.etc %}
            <td>
               <a href="{{ post.full }}"><img src="{{ post.image }}"></a>
               <div class="thumb_title">
@@ -111,112 +111,9 @@
     </div>
 
     <div id='All'>
-      <section class="projects">
-          <div class="row between-xs">
-                <div class="col-xs-7">
-                  <div class="box">
-                    <div class="gallery">
-                      <div class="gallery-item-five">
-                        <img src="assets/images/main.jpg" alt="" width="550" height="450" data-gallery-item-index="1"/>
-                      </div>
-                      <div class="gallery-item-four">
-                        <img src="assets/images/cases.jpg" alt="" width="550" height="450" data-gallery-item-index="1"/>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-            <div class="col-xs-5">
-              <div class="box title">
-                <h1><b>#2.01</b></h1><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A mini-book with an overview of about 30 instruments. <br>
-                <br>
-                <small>View full page (not working yet)</small><br>
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <section class="projects">
-        <div class="row between-xs">
-          <div class="box">
-            <div class="gallery-padding">
-              <div id="scrolling-gallery">
-                <div class="page-thumb">
-                  <img src="assets/images/Frame 8.png" alt="" width="400" height="300" data-gallery-item-index="1"/>
-                    
-                  <img src="assets/images/typewriter.png" alt="" width="400" height="300" data-gallery-item-index="1"/>
-
-                  <img src="assets/images/casio-two.png" alt="" width="400" height="300" data-gallery-item-index="1"/>
-
-                  <img src="assets/images/walkman-tps-l2.png" alt="" width="400" height="300" data-gallery-item-index="1"/>
-
-                  <img src="assets/images/diana_mini.png" alt="" width="400" height="300" data-gallery-item-index="1"/>
-
-                  <img src="assets/images/knife-two.png" alt="" width="400" height="300" data-gallery-item-index="1"/>
-                </div>
-
-                <div id="nav_slide">
-                  <label for="i1" class="dots" id="dot1"></label>
-                  <label for="i2" class="dots" id="dot2"></label>
-                  <label for="i3" class="dots" id="dot3"></label>
-                  <label for="i4" class="dots" id="dot4"></label>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="projects">
-        <div class="row between-xs">
-          <div class="col-xs-5">
-            <div class="box title">
-              <h1><b>537</b></h1><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Old project. cycling stuff and bike repair in garage place <br>
-              <br>
-              <small>View full page (not working yet)</small><br>
-            </div>
-          </div>
-
-          <div class="col-xs-7">
-            <div class="box">
-              <div class="gallery">
-                <div class="gallery-537-one">
-                  <img src="assets/images/Untitled-17.jpg" alt="" width="550" height="450" data-gallery-item-index="1"/>
-                </div>
-                <div class="gallery-537-two">
-                  <img src="assets/images/IMG_69567.jpg" alt="" width="600" height="400" data-gallery-item-index="1"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="projects">
-        <div class="row between-xs">
-          <div class="col-xs-7">
-            <div class="box">
-              <div class="gallery">
-                <div class="gallery-cornish-one">
-                  <img src="assets/images/12.png" alt="" width="600" height="400" data-gallery-item-index="1"/>
-                </div>
-                <div class="gallery-cornish-two">
-                  <img src="assets/images/comp-invert.gif" alt="" width="400" height="400" data-gallery-item-index="1"/>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-5">
-            <div class="box title">
-              <h1><b>#05.09</b></h1><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; personal blog with articles about traveling and mini store with own prints</small><br>
-            </div>
-          </div>
-        </div>
-      </section>
-
-</div>
+      {{ content }}
+    </div>
+    
     </main><!-- .content -->
   </div><!-- .wrapper -->
 
