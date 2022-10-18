@@ -1,7 +1,7 @@
 ---
 title: "küup"
 description: ""
-layout: post
+layout: left
 image: "assets/images/mediahead.png"
 part: "assets/images/kuup.jpg"
 full: "assets/images/kuup.jpg"
