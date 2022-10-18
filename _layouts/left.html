@@ -30,6 +30,6 @@ layout: default
       </section>
 
 
-<p>{{ page.date }} - Written by {{ page.author }}</p>
-
-{{ content }}
+{% for post in site.posts %}
+  {{ post }}
+{% endfor %}
