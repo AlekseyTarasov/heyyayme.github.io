@@ -64,8 +64,10 @@
 
     <div id='Etc'>
           {% for post in site.categories.etc %}
-
+{{ post }}
           {% endfor %}
+
+
     </div>
 
     <div id='Concept'>
@@ -107,6 +109,10 @@
 
     <div id='All'>
       {{ content }}
+
+      {% for post in site.posts %}
+  {{ post }}
+{% endfor %}
     </div>
 
     </main><!-- .content -->
