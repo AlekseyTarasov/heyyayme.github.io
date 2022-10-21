@@ -59,22 +59,19 @@
       </div>
     </header> 
 
-
     <main class="content">
 
       <div id='Etc'>
-
-      {% for post in site.categories.etc %}
-        {{ post }}
-      {% endfor %}
-
+        {% for post in site.categories.etc %}
+          {{ post }}
+        {% endfor %}
       </div>
 
-    <div id='Concept'>
-      {% for post in site.posts %}
-        {{ post }}
-      {% endfor %}
-    </div>
+      <div id='Concept'>
+        {% for post in site.categories.concept %}
+          {{ post }}
+        {% endfor %}
+      </div>
 
     <div id='Pixel'>
 
