@@ -2,18 +2,18 @@
 title: "1.01"
 description: ""
 layout: text-left
-one: "assets/images/one-m.jpg"
-one-width: 60
-one-top: 50
-one-left: 50
-two: "assets/images/two-m.jpg"
-two-width: 100
-two-top: 12
-two-left: 40
+one: "assets/images/two-m.jpg"
+one-width: 100
+one-top: 12
+one-left: 0
+two: "assets/images/one-m.jpg"
+two-width: 80
+two-top: 50
+two-left: 0
 three: "assets/images/three-m.png"
 three-width: 40
 three-top: 0
-three-left: 60
+three-left: 70
 categories: [concept]
 ---
 
