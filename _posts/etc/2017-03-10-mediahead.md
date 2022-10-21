@@ -2,7 +2,7 @@
 title: "küup"
 description: ""
 layout: right
-one: "assets/images/main.jpg"
+one: "assets/images/cases.jpg"
 two: "assets/images/kuup.jpg"
 three: "assets/images/kuup.jpg"
 categories: [etc]
