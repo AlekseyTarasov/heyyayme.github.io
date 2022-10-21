@@ -1,7 +1,7 @@
 ---
 title: "küup"
 description: ""
-layout: left
+layout: redpost
 image: "assets/images/main.jpg"
 part: "assets/images/kuup.jpg"
 full: "assets/images/kuup.jpg"
