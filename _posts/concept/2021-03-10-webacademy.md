@@ -3,8 +3,17 @@ title: "1.01"
 description: ""
 layout: text-left
 one: "assets/images/one-m.jpg"
+one-width: 60
+one-top: 50
+one-left: 0
 two: "assets/images/two-m.jpg"
+two-width: 60
+two-top: 12
+two-left: 40
 three: "assets/images/three-m.png"
+three-width: 60
+three-top: 12
+three-left: 40
 categories: [concept]
 ---
 
