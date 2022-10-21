@@ -1,7 +1,7 @@
 ---
 title: "1.01"
 description: ""
-layout: left
+layout: text-left
 one: "assets/images/one-m.jpg"
 two: "assets/images/two-m.jpg"
 three: "assets/images/three-m.png"
