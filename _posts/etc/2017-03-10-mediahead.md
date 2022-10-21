@@ -1,10 +1,10 @@
 ---
 title: "küup"
 description: ""
-layout: redpost
-image: "assets/images/main.jpg"
-part: "assets/images/kuup.jpg"
-full: "assets/images/kuup.jpg"
+layout: right
+one: "assets/images/main.jpg"
+two: "assets/images/kuup.jpg"
+three: "assets/images/kuup.jpg"
 categories: [etc]
 ---
 
