@@ -71,6 +71,18 @@
     </div>
 
     <div id='Concept'>
+
+              <h1>Templates</h1>
+      {% for post in site.posts %}
+      {{ post }}
+      {% endfor %}
+              <hr/>
+              <h1>Includes</h1>
+      {% for post in site.posts %}
+      {%include ipost.html %}
+      {% endfor %}
+
+
     </div>
 
     <div id='Pixel'>
@@ -100,6 +112,13 @@
                   <label for="i3" class="dots" id="dot3"></label>
                   <label for="i4" class="dots" id="dot4"></label>
                 </div>
+
+                  <div class="bullets">
+    <a href="#s1">1</a>
+    <a href="#s2">2</a>
+    <a href="#s3">3</a>
+    <a href="#s4">4</a>
+  </div>
 
               </div>
                     </div>
