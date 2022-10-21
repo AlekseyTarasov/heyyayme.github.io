@@ -2,12 +2,12 @@
 title: "1.01"
 description: ""
 layout: text-left
-one: "assets/images/two-m.jpg"
-one-width: 100
-one-top: 12
+one: "assets/images/one-m.jpg"
+one-width: 80
+one-top: 50
 one-left: 0
-two: "assets/images/one-m.jpg"
-two-width: 80
+two: "assets/images/two-m.jpg"
+two-width: 100
 two-top: 50
 two-left: 0
 three: "assets/images/three-m.png"
