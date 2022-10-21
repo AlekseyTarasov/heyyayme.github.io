@@ -1,0 +1,43 @@
+---
+layout: post
+---
+
+<div class="row between-xs">
+  <div class="col-xs-7">
+    <div class="box">
+      <div class="gallery">
+        <div id="scrolling-gallery">
+            <div class="page-thumb">
+                  <img src="{{ page.one }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
+                  <img src="{{ page.two }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
+                  <img src="{{ page.three }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
+                  <img src="{{ page.four }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
+                  <img src="{{ page.five }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
+            </div>
+
+            <div id="nav_slide">
+              <label for="i1" class="dots" id="dot1"></label>
+              <label for="i2" class="dots" id="dot2"></label>
+              <label for="i3" class="dots" id="dot3"></label>
+              <label for="i4" class="dots" id="dot4"></label>
+            </div>
+
+            <div class="bullets">
+              <a href="#s1">1</a>
+              <a href="#s2">2</a>
+              <a href="#s3">3</a>
+              <a href="#s4">4</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-5">
+    <div class="box title">
+      <h1><b>#{{ page.title }}</b></h1><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {{ content }} <br>
+      <br>
+      <small>View full page (not working yet)</small><br>
+        </div>
+    </div>
+</div>
