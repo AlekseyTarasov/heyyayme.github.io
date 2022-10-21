@@ -133,7 +133,9 @@ I used one of these icons in an old blog design.
     </div>
 
     <div id='All'>
-      {{ content }}
+      {% for post in site.posts %}
+        {{ post }}
+      {% endfor %}
     </div>
 
     </main><!-- .content -->
