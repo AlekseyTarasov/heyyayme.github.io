@@ -74,7 +74,9 @@
       </div>
 
       <div id='Pixel'>
-      
+        {% for post in site.categories.pixel %}
+          {{ post }}
+        {% endfor %}
       </div>
 
       <div id='All'>
@@ -82,7 +84,7 @@
           {{ post }}
         {% endfor %}
       </div>
-      
+
     </main><!-- .content -->
   </div><!-- .wrapper -->
 
