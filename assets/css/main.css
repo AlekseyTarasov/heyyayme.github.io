@@ -379,7 +379,20 @@ article {
 }
 
 
+.image-one{
+	position: absolute;
+	pointer-events: auto;
+}
 
+.image-two{
+	position: absolute;
+	pointer-events: auto;
+}
+
+.image-three{
+	position: absolute;
+	pointer-events: auto;
+}
 
 
 .gallery-item-one{
@@ -524,15 +537,7 @@ pointer-events: auto;
 }
 
 
-.image-one{
-	position: absolute;
-	pointer-events: auto;
-}
 
-.image-two{
-	position: absolute;
-	pointer-events: auto;
-}
 
 
 
