@@ -13,17 +13,17 @@ layout: post
 	<div class="col-xs-7">
 		<div class="box">
 			<div class="gallery">
-			  <div class="gallery-item-one">
-			    <img src="{{ page.one }}" alt="" width="550" height="450" data-gallery-item-index="1"/>
-			  </div>
+		        <div class="image-one">
+		          <img style="width:{{ page.one-width }}%; top:{{ page.one-top }}%; left:{{ page.one-left }}%;" src="{{ page.one}}" alt=""/>
+		        </div>
 
-			  <div class="gallery-item-two">
-			    <img src="{{ page.two}}" alt="" width="550" height="450" data-gallery-item-index="1"/>
-			  </div>
+		        <div class="image-two">
+		          <img style="width:{{ page.two-width }}%; top:{{ page.two-top }}%; left:{{ page.two-left }}%;" src="{{ page.two}}" alt=""/>
+		        </div>
 
-			  <div class="gallery-item-three">
-			    <img src="{{ page.three }}" alt="" width="550" height="450" data-gallery-item-index="1"/>
-			  </div>
+ 				<div class="image-three">
+		          <img style="width:{{ page.three-width }}%; top:{{ page.three-top }}%; left:{{ page.three-left }}%;" src="{{ page.three}}" alt=""/>
+		        </div>
 			</div>
 	    </div>
 	</div>
