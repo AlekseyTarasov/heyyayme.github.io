@@ -524,6 +524,17 @@ pointer-events: auto;
 }
 
 
+.image-one{
+	position: absolute;
+	pointer-events: auto;
+}
+
+.image-two{
+	position: absolute;
+	pointer-events: auto;
+}
+
+
 
 
 .gallery-cornish-one{
