@@ -7,11 +7,11 @@ layout: post
     <div class="box">
       <div class="gallery">
         <div class="gallery-item-one">
-          <img src="{{ page.one }}" alt="" width="550" height="450" data-gallery-item-index="1"/>
+          <img src="{{ page.one }}" alt="" width="550" height="450"/>
         </div>
 
         <div class="gallery-item-two">
-          <img src="{{ page.two}}" alt="" width="550" height="450" data-gallery-item-index="1"/>
+          <img style="top:{{ page.one-top }}%; left:{{ page.one-left }}%;" src="{{ page.two}}" alt="" width="550" height="450"/>
         </div>
 
       </div>
