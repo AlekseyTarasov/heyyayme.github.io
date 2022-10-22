@@ -9,7 +9,7 @@ one-left: 0
 two: "assets/images/one-m.jpg"
 two-width: 80
 two-top: 50
-two-left: 0
+two-left: 10
 three: "assets/images/three-m.png"
 three-width: 40
 three-top: 0
