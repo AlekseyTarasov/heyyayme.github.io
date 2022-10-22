@@ -425,34 +425,8 @@ pointer-events: auto;
 }
 
 
-.gallery-item-four{
-width: 50%;
-top: 55%;
-left: 45%;
-z-index: 2;
 
-position: absolute;
-pointer-events: auto;
-}
 
-.gallery-item-five{
-	width: 100%;
-	top: 12%;
-	left: 0%;
-	z-index: 1;
-	position: absolute;
-pointer-events: auto;
-}
-
-.gallery-item-six{
-width: 35%;
-top: -10%;
-left: 55%;
-z-index: 3;
-
-position: absolute;
-pointer-events: auto;
-}
 
 
 .gallery-item-can{
@@ -473,47 +447,6 @@ pointer-events: auto;
 
 
 
-
-
-.gallery-pixel-one{
-width: 60%;
-top: 50%;
-left: 40%;
-z-index: 2;
-
-position: absolute;
-pointer-events: auto;
-}
-
-.gallery-pixel-two{
-	width: 80%;
-	top: 12%;
-	left: 0%;
-	z-index: 1;
-	position: absolute;
-pointer-events: auto;
-}
-
-.gallery-pixel-three{
-width: 50%;
-top: 0%;
-left: 40%;
-z-index: 3;
-
-position: absolute;
-pointer-events: auto;
-}
-
-
-.gallery-pixel-four{
-width: 50%;
-top: 40%;
-left: -15%;
-z-index: 2;
-
-position: absolute;
-pointer-events: auto;
-}
 
 
 
@@ -560,39 +493,6 @@ pointer-events: auto;
 	position: absolute;
 pointer-events: auto;
 }
-
-
-
-.gallery-537-one{
-width: 60%;
-top: 50%;
-left: 0%;
-z-index: 2;
-
-position: absolute;
-pointer-events: auto;
-}
-
-.gallery-537-two{
-	width: 60%;
-	top: 12%;
-	left: 40%;
-	z-index: 1;
-	position: absolute;
-pointer-events: auto;
-}
-
-.gallery-537-three{
-width: 30%;
-top: 0%;
-left: 20%;
-z-index: 3;
-
-position: absolute;
-pointer-events: auto;
-}
-
-
 
 
 /* Footer 40px */
