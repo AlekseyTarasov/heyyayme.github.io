@@ -431,8 +431,8 @@ text-decoration: none;
 }
 
 .item {
-  height: 224px;
-  width: 125px;
+  height: 400px;
+  width: 300px;
   flex-shrink: 0;
 
   /* scroll snapping */
