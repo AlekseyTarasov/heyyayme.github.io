@@ -456,4 +456,25 @@ text-decoration: none;
 }
 
 
+.indicatorsList {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+   list-style: none;
+}
 
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 1);
+}
+
+.indicator:not(:last-child) {
+  margin-right: 16px;
+}
+
+.indicator.active {
+  background-color: #e60576;
+}
