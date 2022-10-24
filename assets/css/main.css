@@ -396,7 +396,12 @@ text-decoration: none;
 
 
 
-
+.viewport {
+  max-width: 650px;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 
 .list {
@@ -434,7 +439,7 @@ text-decoration: none;
   height: 300px;
   width: 400px;
   flex-shrink: 0;
-  margin: 10px;
+  margin-left: 8px;
 
   /* scroll snapping */
   scroll-snap-align: start;
@@ -455,14 +460,6 @@ text-decoration: none;
   display: block;
   content: "";
 }
-
-.viewport {
-  max-width: 420px;
-  width: calc(100% - 20px);
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 
 .indicatorsList {
   padding: 20px;
