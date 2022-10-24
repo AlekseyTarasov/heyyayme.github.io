@@ -455,6 +455,13 @@ text-decoration: none;
   content: "";
 }
 
+.viewport {
+  max-width: 420px;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 
 .indicatorsList {
   padding: 20px;
