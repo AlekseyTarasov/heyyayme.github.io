@@ -12,11 +12,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 
-a{
-	color: #000;
-	text-decoration: none;
-}
-
 body {
 	font: 12px 'Droid Sans', sans-serif;
 	height: 100%;
@@ -209,6 +204,36 @@ color: #141414;
 }
 
 
+
+
+canvas,
+#controls {
+  position: absolute;
+  top: 50px;
+  z-index: -1;
+    display: none;
+}
+
+#controls {
+  display: none;
+}
+
+label input {
+  display: none;
+}
+
+article {
+  margin-bottom: 1em;
+  text-align: center
+}
+
+
+.hide {
+  display: none;
+}
+
+
+
 /* Navigation */
 
 .navbar-list{
@@ -241,36 +266,6 @@ color: #141414;
 }
 
 
-
-
-canvas,
-#controls {
-  position: absolute;
-  top: 50px;
-  z-index: -1;
-    display: none;
-}
-
-#controls {
-  display: none;
-}
-
-label input {
-  display: none;
-}
-
-article {
-  margin-bottom: 1em;
-  text-align: center
-}
-
-
-.hide {
-  display: none;
-}
-
-
-
 .gallery{
 	display: block;
 	width: 100%;
@@ -279,6 +274,7 @@ article {
 	height: 0;
 	padding-bottom: 120%;
 }
+
 
 .gallery-padding{
 	display: block;
@@ -319,5 +315,80 @@ article {
 
 #scrolling-gallery::-webkit-scrollbar {
   display: none;
+}
+
+
+	#nav_slide {
+		width: 100%;
+		bottom: 12%;
+		height: 11px;
+		position: absolute;
+		text-align: center;
+		z-index: 99;
+		cursor: default;
+	}
+
+		.dots {
+			top: -5px;
+			width: 18px;
+			height: 18px;
+			margin: 0 3px;
+			position: relative;
+			border-radius: 100%;
+			display: inline-block;
+			background-color: rgba(0, 0, 0, 0.6);
+			transition: .4s;
+			cursor: pointer;
+		}
+		
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+}
+.CSSgal .bullets > a {
+	display: inline-block;
+	width:       30px;
+	height:      30px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+	background: rgba(255, 255, 255, 1);
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+}
+.CSSgal .bullets > a+a {
+	background: rgba(255, 255, 255, 0.5); /* Dim all but first */
+}
+.CSSgal .bullets > a:hover {
+	background: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+.image-one{
+	position: absolute;
+	pointer-events: auto;
+}
+
+.image-two{
+	position: absolute;
+	pointer-events: auto;
+}
+
+.image-three{
+	position: absolute;
+	pointer-events: auto;
+}
+
+
+a{
+color: #000;
+text-decoration: none;
 }
 
