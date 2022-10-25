@@ -316,19 +316,6 @@ article {
   /* hide scroll bar */
   scrollbar-width: none;
   -ms-overflow-style: none;
-
-  /* momentum scroll on iOS */
-  -webkit-overflow-scrolling: touch;
-
-  /* disbable vertical scroll for touch */
-  touch-action: pan-x;
-
-  /* scroll snapping */
-  scroll-snap-type: x mandatory;
-
-  /* stop scrolling before reaching edge */
-  scroll-padding-left: 20px;
-  scroll-padding-inline-start: 20px;
 }
 
 /* hide scroll bar */
@@ -341,12 +328,6 @@ article {
   width: 400px;
   flex-shrink: 0;
   margin-left: 8px;
-
-  /* scroll snapping */
-  scroll-snap-align: start;
-
-  /* maybe this will work in the future 🤷‍♂️ */
-  scroll-snap-stop: always;
 }
 
 .item:last-child {
