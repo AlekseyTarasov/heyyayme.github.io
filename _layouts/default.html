@@ -105,9 +105,9 @@
   </script>
 
   <script>
-    const list = document.querySelector(".page-thumb");
+    const list = document.querySelector(".list");
     const items = Array.from(document.querySelectorAll(".item"));
-    const indicators = Array.from(document.querySelectorAll(".dots"));
+    const indicators = Array.from(document.querySelectorAll(".indicator"));
 
     const observer = new IntersectionObserver(onIntersectionObserved, {
       root: list,
