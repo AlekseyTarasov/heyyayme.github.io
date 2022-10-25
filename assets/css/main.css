@@ -206,36 +206,6 @@ color: #141414;
 
 
 
-canvas,
-#controls {
-  position: absolute;
-  top: 50px;
-  z-index: -1;
-    display: none;
-}
-
-#controls {
-  display: none;
-}
-
-label input {
-  display: none;
-}
-
-article {
-  margin-bottom: 1em;
-  text-align: center
-}
-
-
-.hide {
-  display: none;
-}
-
-
-
-
-
 
 .gallery{
 	display: block;
@@ -245,7 +215,6 @@ article {
 	height: 0;
 	padding-bottom: 120%;
 }
-
 
 .gallery-padding{
 	display: block;
