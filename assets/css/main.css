@@ -304,7 +304,7 @@ article {
 
 
 
-.list1 .list2{
+.list{
   display: flex;
   overflow-x: scroll;
   padding: 20px;
