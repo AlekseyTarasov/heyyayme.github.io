@@ -309,9 +309,6 @@ article {
   overflow-x: scroll;
   padding: 20px;
 
-  /* prevent accidentally going back or triggering other swipe events */
-  overscroll-behavior: contain;
-
   /* hide scroll bar */
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -327,12 +324,6 @@ article {
   width: 400px;
   flex-shrink: 0;
   margin-left: 8px;
-
-  /* scroll snapping */
-  scroll-snap-align: start;
-
-  /* maybe this will work in the future */
-  scroll-snap-stop: always;
 }
 
 
