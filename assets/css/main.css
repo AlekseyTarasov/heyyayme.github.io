@@ -12,6 +12,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block;
 }
 
+a{
+	color: #000;
+	text-decoration: none;
+}
+
 body {
 	font: 12px 'Droid Sans', sans-serif;
 	height: 100%;
