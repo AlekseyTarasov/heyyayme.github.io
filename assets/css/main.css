@@ -302,9 +302,64 @@ article {
 }
 
 
+
+
 .list {
- inline
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px;
+
+  /* prevent accidentally going back or triggering other swipe events */
+  overscroll-behavior: contain;
+
+  /* hide scroll bar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+/* hide scroll bar */
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  height: 300px;
+  width: 400px;
+  flex-shrink: 0;
+  margin-left: 8px;
+
+  /* scroll snapping */
+  scroll-snap-align: start;
+
+  /* maybe this will work in the future */
+  scroll-snap-stop: always;
+}
+
+
+
+.indicatorsList {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+   list-style: none;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.indicator:not(:last-child) {
+  margin-right: 16px;
+}
+
+.indicator.active {
+  background-color: #e60576;
+}
+
+
 
 
 	#nav_slide {
