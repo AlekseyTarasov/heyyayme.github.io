@@ -5,10 +5,11 @@ layout: post
 <div class="row between-xs">
 	<div class="col-xs-5">
 		<div class="box title">
-			<h1><b>#{{ page.title }}</b></h1><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {{ content }} <br>
-			<small>View full page (not working yet)</small><br>
-        </div>
-    </div>
+			<h1><b>#{{ page.title }}</b></h1>
+			{{ content }}
+			<small><a href="{{ page.link }}">View full page (not working yet)</a></small>
+		</div>
+	</div>
 
 	<div class="col-xs-7">
 		<div class="box">
