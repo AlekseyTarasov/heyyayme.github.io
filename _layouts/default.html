@@ -105,7 +105,9 @@
   </script>
 
   <script>
-    const list = document.querySelector(".list");
+    const list = document.getElementsByClassName("list1 list2");
+    const list = document.querySelectorAll(".list1.list2");
+
     const items = Array.from(document.querySelectorAll(".item"));
     const indicators = Array.from(document.querySelectorAll(".indicator"));
 
