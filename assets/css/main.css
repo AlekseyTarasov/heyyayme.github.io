@@ -290,7 +290,7 @@ article {
 
 #scrolling-gallery {
   cursor: ew-resize;
-  padding-top: 6em;
+  padding-top: 7em;
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -308,7 +308,6 @@ article {
 .list{
   display: flex;
   overflow-x: scroll;
-  padding: 20px;
 
   /* prevent accidentally going back or triggering other swipe events 
   overscroll-behavior: contain;
