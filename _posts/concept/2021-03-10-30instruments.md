@@ -14,7 +14,8 @@ three: "assets/images/three-с.jpg"
 three-width: 35
 three-top: -10
 three-left: 55
+link: ""
 categories: [concept]
 ---
 
-A mini-book with an overview of about 30 instruments.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A mini-book with an overview of about 30 instruments.

@@ -14,7 +14,8 @@ three: "assets/images/three-m.png"
 three-width: 40
 three-top: 0
 three-left: 70
+link: ""
 categories: [concept]
 ---
 
-Site design for web academy. 2 pages with information about events and 2 page with education content.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Site design for web academy. 2 pages with information about events and 2 page with education content.
