@@ -105,7 +105,7 @@
   </script>
 
   <script>
-    const list = document.querySelector("ul.list");
+    const list = document.querySelectorAll(".list");
     const items = Array.from(document.querySelectorAll(".item"));
     const indicators = Array.from(document.querySelectorAll(".indicator"));
 
@@ -134,6 +134,7 @@
     items.forEach(item => {
       observer.observe(item);
     });
+
   </script>
 
 </body>
