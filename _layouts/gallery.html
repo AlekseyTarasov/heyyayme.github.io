@@ -7,20 +7,20 @@ layout: post
     <div class="box">
       <div class="gallery">
         <div id="scrolling-gallery">
-            <div class="page-thumb">
-                  <img class="item" src="{{ page.one }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
-                  <img class="item" src="{{ page.two }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
-                  <img class="item" src="{{ page.three }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
-                  <img class="item" src="{{ page.four }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
-                  <img class="item" src="{{ page.five }}" alt="" width="400" height="300" data-gallery-item-index="1"/>
-            </div>
-
-            <div id="nav_slide">
-              <label for="i1" class="dots" id="dot1"></label>
-              <label for="i2" class="dots" id="dot2"></label>
-              <label for="i3" class="dots" id="dot3"></label>
-              <label for="i4" class="dots" id="dot4"></label>
-            </div>
+          <ul class="list">
+            <li class="item"><img src="{{ page.one }}"/></li>
+            <li class="item"><img src="{{ page.two }}"/></li>
+            <li class="item"><img src="{{ page.three }}"/></li>
+            <li class="item"><img src="{{ page.four }}"/></li>
+            <li class="item"><img src="{{ page.five }}"/></li>
+          </ul>
+          <ul class="indicatorsList" aria-hidden>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+          </ul>
         </div>
       </div>
     </div>
