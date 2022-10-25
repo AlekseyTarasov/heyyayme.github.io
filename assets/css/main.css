@@ -168,6 +168,7 @@ body {
 	padding-left: 5rem /*!main_margin*/;
 	padding-right: 5rem /*!main_margin*/;
 	z-index: 2;
+	overflow-y: hidden;
 }
 
 .title{
