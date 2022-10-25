@@ -290,7 +290,7 @@ article {
 
 #scrolling-gallery {
   cursor: ew-resize;
-  margin: 30% 0 auto;
+  padding-top: 6em;
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
