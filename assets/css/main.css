@@ -297,24 +297,13 @@ article {
     -webkit-overflow-scrolling: touch;
 }
 
-@media only screen and (max-width: 600px) {
-  .scrolling-gallery{
-    display: none;
-  }
-}
-
-#scrolling-gallery-m {
-  cursor: ew-resize;
-  margin: 10% auto;
-  width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-}
-
 #scrolling-gallery::-webkit-scrollbar {
   display: none;
+}
+
+
+.list {
+ inline
 }
 
 
