@@ -354,7 +354,7 @@ article {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .indicator:not(:last-child) {
