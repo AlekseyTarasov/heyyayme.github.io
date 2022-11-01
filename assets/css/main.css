@@ -324,8 +324,6 @@ article {
 }
 
 .item {
-  height: 310px;
-  width: 400px;
   flex-shrink: 0;
   margin-left: 8px;
 }
