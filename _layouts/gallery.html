@@ -5,21 +5,23 @@ layout: post
 <div class="row between-xs">
   <div class="col-xs-7">
     <div class="box">
-      <div id="scrolling-gallery">
-        <ul class="list">
-          <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.one }}"/></li>
-          <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.two }}"/></li>
-          <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.three }}"/></li>
-          <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.four }}"/></li>
-          <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.five }}"/></li>
-        </ul>
-        <ul class="indicatorsList" aria-hidden>
-          <li class="indicator"></li>
-          <li class="indicator"></li>
-          <li class="indicator"></li>
-          <li class="indicator"></li>
-          <li class="indicator"></li>
-        </ul>
+      <div class="gallery">
+        <div id="scrolling-gallery">
+          <ul class="list">
+            <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.one }}"/></li>
+            <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.two }}"/></li>
+            <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.three }}"/></li>
+            <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.four }}"/></li>
+            <li class="item" style="width:{{ page.gallery-width }}px; height:{{ page.gallery-height }}px;"><img src="{{ page.five }}"/></li>
+          </ul>
+          <ul class="indicatorsList" aria-hidden>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+            <li class="indicator"></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
