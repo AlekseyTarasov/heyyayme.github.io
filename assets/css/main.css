@@ -159,7 +159,13 @@ body {
 
 /* Middle 
 -----------------------------------------------------------------------------*/
-
+.projects{
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding-bottom: 100%;
+}
 
 .content{
 	background-color: #FCFCFC;
@@ -265,26 +271,6 @@ article {
 	padding: 0 20px;
 	transition: 0.5s;
 }
-
-
-.gallery{
-	display: block;
-	width: 100%;
-	height: auto;
-	position: relative;
-	padding-bottom: 100%;
-}
-
-
-.gallery-padding{
-	display: block;
-	width: 100%;
-	height: auto;
-	position: relative;
-	height: 0;
-	padding-bottom: 40%;
-}
-
 
 
 #scrolling-gallery {
