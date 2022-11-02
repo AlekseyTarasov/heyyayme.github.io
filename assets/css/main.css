@@ -272,8 +272,7 @@ article {
 	width: 100%;
 	height: auto;
 	position: relative;
-	height: 0;
-	padding-bottom: 120%;
+	padding-bottom: 100%;
 }
 
 
