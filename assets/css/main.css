@@ -276,6 +276,17 @@ article {
 }
 
 
+.gallery-padding{
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	height: 0;
+	padding-bottom: 40%;
+}
+
+
+
 #scrolling-gallery {
   cursor: ew-resize;
   padding-top: 7em;
